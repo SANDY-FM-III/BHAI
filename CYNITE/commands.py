@@ -24,8 +24,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/kd_botz'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/kdbotz_support')
+                    InlineKeyboardButton('📯Uᴘᴅᴀᴛᴇs📌', url='https://t.me/filmy_men'),
+                    InlineKeyboardButton('🖤Sᴜᴘᴘᴏʀᴛ🤍', url='https://t.me/filmymenchat')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
@@ -50,7 +50,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@TechnicalCynite")
+                    InlineKeyboardButton('ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ', url="https://t.me/filmy_men")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
