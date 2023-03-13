@@ -151,6 +151,17 @@ ID - <code>{}</code>
 
 Nᴀᴍᴇ - {}</b>
 """
+    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+
+╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
+
+▫️<a href=https://t.me/Filmy_Men> ᴄʜᴀɴɴᴇʟ </a>
+
+▫️<a href=https://t.me/Filmy_Rog>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
+
+╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
+ 
+ 
     ALRT_TXT = """⚠️ 𝖧ᴇʏ !
     
 𝖲ᴇᴀʀᴄʜ 𝖸ᴏᴜʀ 𝖮ᴡɴ 𝖥ɪʟᴇ, 
