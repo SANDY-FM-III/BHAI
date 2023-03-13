@@ -81,9 +81,10 @@ async def start(client, message):
                 pre = 'checksubp' if kk == 'filep' else 'checksub' 
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("↻ Tʀʏ
+                                                 Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
-            photo="https://telegra.ph/file/a4c2c5d8a999b47970227.jpg",
+            photo="https://telegra.ph/file/eaa56fdfe02a9bc35902a.jpg",
             chat_id=message.from_user.id,
             caption=(script.FORCE_SUB),
             reply_markup=InlineKeyboardMarkup(btn),
@@ -97,7 +98,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
                   ],[
-                    InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ', url="https://youtube.com/@TechnicalCynite")
+                    InlineKeyboardButton('💞ᴊᴏɪɴ ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ💞', url="https://t.me/filmy_men")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -635,7 +636,7 @@ async def request(bot, message):
 
 @Client.on_message((filters.private | filters.chat(chats=SUPPORT_GROUP)) & filters.command('ping'))
 async def ping(_, message):
-    kd = await message.reply_sticker('CAACAgUAAxkBAAEGOytjW6NWTA-5W3mgd-EM097fO5d9NwACqAgAAjUZ2FaMuFVVR8ipsCoE')
+    kd = await message.reply_sticker('CAACAgUAAxkBAAEBtZlkD2wcMcOpSTFXm6Z2KqKdODE3xwACtwcAAkr_4VYAAcLHrq0bW7keBA')
     await asyncio.sleep(30)
     await kd.delete()
     await message.delete()
