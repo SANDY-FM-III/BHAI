@@ -1,5 +1,5 @@
 from aiohttp import web
-
+from asyncio import Coroutine
 routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
