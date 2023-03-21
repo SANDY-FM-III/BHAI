@@ -9,4 +9,4 @@ bs4
 git+https://github.com/KDBotz/cinemagoer
 psutil
 pytz
-aiohttp
+aiohttp<=3.11.2
