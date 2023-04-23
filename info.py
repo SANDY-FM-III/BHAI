@@ -52,8 +52,8 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Thanks Dev❤✨')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001826790749))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/FILMY_MEN_ON')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001745042991))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/RestrictTest')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
