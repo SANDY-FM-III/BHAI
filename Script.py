@@ -342,7 +342,7 @@ https://t.me/Filmy_men </code>
 
 ɪғ ʏᴏᴜ ɴᴏᴛ sᴇᴇ ʏᴏᴜʀ ғɪʟᴇs ᴏɴ ᴛʜɪs ᴘᴀɢᴇ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ.
 
-Powered by :- @FILMY_MEN
+Powered by :- @LuciferXyashu
 """
 
     SPLMD = """
@@ -356,7 +356,7 @@ sᴇʀɪᴇs ʀᴇǫᴜᴇsᴛ ғᴏʀᴍᴀᴛ
 
 🚯ᴅᴏɴ'ᴛ ᴜsᴇ ➠ ':(!,./)
 
-Powered by :- @FILMY_MEN
+Powered by :- @LuciferXyashu
 """
     
     REQUEST_TXT = """
